@@ -1,0 +1,54 @@
+
+body{
+    font-family: Poppins,sans-serif;
+  
+}
+.container{
+    
+    height: 100vh;
+    display: flex;
+    padding: 6rem;
+  justify-content: space-between;
+  align-items: center;
+ background: linear-gradient(to bottom, #013D39EB, #011701);
+}
+.tag{
+    font-size: 4rem;
+    color: white;
+}
+.cards{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.big-card { 
+    display: flex;
+ flex-direction: column;
+ align-items: center;
+    color: white;
+    padding: 3.5rem;
+  width: fit-content;
+  height: fit-content;
+     border-radius: 12px;
+    box-shadow: 0 0 1px 0 ;
+    border-color: #EEEDED33;
+      backdrop-filter: blur(10px);
+    
+     
+
+}
+/* most of home styling goes here*/
+
+.temperature{
+    display: flex;
+    justify-content: row;
+    padding: 2%;
+}
+.temp{
+    font-size: 6rem;
+}
+.unit{
+    font-size: 2rem;
+}
