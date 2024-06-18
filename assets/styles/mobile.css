@@ -69,8 +69,9 @@ input{
     width: 390px;
     border:solid #f1f1f1 ;
     margin: 24px auto;
-    color: black;
+color: #5C6EE5;
     padding: 1.5rem;
+   
 }
 nav{
     padding-bottom: 1rem ;
@@ -80,6 +81,7 @@ nav{
     display: flex;
     flex-direction: row;
     align-items: center;
+    
     justify-content: space-between;
     color: #5C6EE5;
 }
@@ -98,6 +100,10 @@ main{
 }
 .highlights{
     text-align: center;
+    border-bottom: 3px;
+    box-shadow:  rgba(0,0,0, 0.3);
+padding-bottom: 32px;
+border-radius: 32px;
 }
 .temperature{
     display: flex;
@@ -106,7 +112,66 @@ main{
 }
 .temp{
     font-size: 8rem;
+    
 }
 .unit{
     font-size: 2rem;
+}
+.temp-hero{
+    display: flex;
+    flex-direction: row;
+    padding: 4rem 0;
+}
+
+
+.long-card{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 50%;
+    margin: 0 auto;
+  background-color: #E9E7FF;
+  padding: .5rem 1rem;
+  border-radius: 24px;
+box-shadow: rgba(0,0,0, .3);
+}
+.card-des{
+    display: flex;
+    flex-direction: column;
+}
+.long-card span{
+    font-size: 1rem;
+}
+.long-card p{
+    font-size: 0.5rem;
+}
+
+/*cards below*/
+.details-cards{
+     display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.details-card-active{
+    background-color: #4C4DDB;
+    display: flex;
+    flex-direction: column;
+    padding: .5rem;
+    border-radius: 16px;
+    color: white;
+    align-items: center;
+    font-size: .8rem;
+    gap: 8px;
+}
+.details-card{
+  background-color: #E9E7FF;
+    display: flex;
+    flex-direction: column;
+    padding: .5rem;
+    border-radius: 16px;
+    color: #4C4DDB;
+    align-items: center;
+    font-size: .8rem;
+    gap: 8px;
+
 }
